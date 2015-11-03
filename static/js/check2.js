@@ -124,27 +124,27 @@ $(document).ready(function(){
             $("#item2").addClass("backadd");
         })
     });
-				$(document).ready(function(){
-    $("#img5").click(function(){
-        $("#robo").hide();
-        $("#bbb").show();
-        $("#modex").hide();
-        $("#edunex").hide();
-        $("#Extreme").hide();
-        $("#create").hide();
-        $("#pahal").hide();
-        $("#riqueza").hide();
-        $("#clutch").hide();
-        $("#supernova").hide();
-        $("#events").hide();
+	$(document).ready(function(){
+        $("#img5").click(function(){
+            $("#robo").hide();
+            $("#bbb").show();
+            $("#modex").hide();
+            $("#edunex").hide();
+            $("#Extreme").hide();
+            $("#create").hide();
+            $("#pahal").hide();
+            $("#riqueza").hide();
+            $("#clutch").hide();
+            $("#supernova").hide();
+            $("#events").hide();
+        });
     });
-});
-                $(document).ready(function(){
+    $(document).ready(function(){
         $("#img5").click(function(){
             $("#img5").animate({fontSize: '20px'});
         });
     });
-                    $(document).ready(function(){
+    $(document).ready(function(){
         $("#img5").click(function(){
             $("#img5").addClass("backadd");
         });
@@ -184,7 +184,7 @@ $(document).ready(function(){
             $("#img3").animate({fontSize: '20px'});
         });
     });
-                            $(document).ready(function(){
+    $(document).ready(function(){
         $("#img3").click(function(){
             $("#img3").addClass("backadd");
         });

@@ -300,9 +300,11 @@
 				$('#contact').html("");
 				$('#intro').hide();
 				$('#contact').hide();
+				$('.left').removeClass('backadd');
 				for(i=1;i<8;i++){
 					$('#sub'+i).text('');
 					$('#sub'+i).show();
+					$('#sub'+i).removeClass('backadd check10');
 				}
 			});
 		});

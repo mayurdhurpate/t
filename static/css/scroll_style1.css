@@ -35,11 +35,11 @@ body {
   top: 100vh;
   position: absolute;
   z-index: 100;
-  -webkit-transition: top 0.8s ease-out;
-  -moz-transition: top 0.8s ease-out;
-  -ms-transition: top 0.8s ease-out;
-  -o-transition: top 0.8s ease-out;
-  transition: top 0.8s ease-out;
+  -webkit-transition: top 0.9s ease-in-out;
+  -moz-transition: top 0.9s ease-in-out;
+  -ms-transition: top 0.9s ease-in-out;
+  -o-transition: top 0.9s ease-in-out;
+  transition: top 0.9s ease-in-out;
 }
 
 
