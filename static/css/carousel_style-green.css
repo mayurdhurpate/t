@@ -22,6 +22,7 @@
     margin: 0 auto;
     position: relative;
     z-index: 5 !important;
+    max-height: 430px;
 }
 
 .arrow-left, .arrow-right {

@@ -149,8 +149,8 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 		    	$(".left").click(function(){
-		        $(".left").removeClass("backadd");
-		        $(this).addClass("backadd");
+		        $(".left").removeClass("backadd clicked");
+		        $(this).addClass("backadd clicked");
 		        
     		});
 		    $("#finalMiddle").hide();
@@ -165,7 +165,7 @@
             <div style="position: fixed;" id="navbar">
 
                 <div class="iit_bhu_logo" >
-                    <a href="index.html"><img src="static/css/images/technex_logo.png" class="iitbhu_logo_left" width="17.5%"></a>
+                    <a href="index.html"><img src="static/css/images/technex_logo.png" id="iitbhu_logo_left" width="17.5%"></a>
                 </div>
                 <!-- Navbar --> 
                 <div class="navbar_top">
@@ -347,13 +347,13 @@
 		<div id= "middle">
 		<ul>
 			<li id= "back" style="font-family: L; font-size: 27px;">Back to events</li>
-			<li id= "sub1">Robowars</li>
-			<li id= "sub2">Xestos</li>
-			<li id= "sub3">Hydracs</li>
-			<li id= "sub4">Pixelate</li>
-			<li id= "sub5">Hurdle Mania</li>
-			<li id= "sub6">Grid Xplorer</li>
-			<li id="sub7"></li>
+			<li id= "sub1" class="events">Robowars</li>
+			<li id= "sub2" class="events">Xestos</li>
+			<li id= "sub3" class="events">Hydracs</li>
+			<li id= "sub4" class="events">Pixelate</li>
+			<li id= "sub5" class="events">Hurdle Mania</li>
+			<li id= "sub6" class="events">Grid Xplorer</li>
+			<li id="sub7" class="events"></li>
 			
 		</ul></div><div id= "middle">
 		<ul>
